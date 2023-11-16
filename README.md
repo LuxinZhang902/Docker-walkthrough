@@ -237,3 +237,18 @@ tail -n 5 # see the last 5 lines of the file
 ```
 
 ## Redirection
+
+```python
+cat file1.txt # see the content -> read the data from the file and print it on the terminal
+
+cat file1.txt > file2.txt # cat will read the content in file1.txt and redirect it to file2.txt
+
+cat file1.txt file2.txt # cat will read both and print them on the terminal
+
+cat file1.txt file2.txt > combined.txt
+
+echo hello # result on the terminal
+echo hello > hello.txt # result in the file called hello.txt
+
+ls -l /etc > files.txt
+```
