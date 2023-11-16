@@ -215,3 +215,25 @@ rm file* # remove all files that starts from file
 
 rm -r docker/ # remove docker - '-r' for recursive
 ```
+
+## Editing and Viewing files
+
+```python
+nano file1.txt
+
+ctrl + x # exist
+
+cat # concatenate
+cat file1.txt # see the context of the file (short file)
+more file1.txt # see long files (press space to goto the next page)
+
+apt install less
+less file1.txt # using up and down arrows can scroll up or down
+# press q to exit
+
+head -n 5 # see the first 5 lines of the file
+
+tail -n 5 # see the last 5 lines of the file
+```
+
+## Redirection
