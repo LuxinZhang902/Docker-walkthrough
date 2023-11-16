@@ -174,3 +174,26 @@ apt remove nano
 2. dev - short for device
 3. etc - short for editable text configuration
 4. root - the home directory for the root user
+
+## Navigating the file system
+
+```python
+pwd # print working directory - where we are in the file system
+
+ls # list
+
+ls -1 # list - one per line
+ls -l # seeing a long listing with more details
+
+cd # change the directory
+# Relative vs absolute path
+# absolute always starts with '/'
+
+cd .. # get one level up to
+cd ../.. # get two levels up
+
+ls /bin # see everything in the bin directory
+cd ~ # get to the home directory - for all users
+```
+
+## Manipulating files and directories
