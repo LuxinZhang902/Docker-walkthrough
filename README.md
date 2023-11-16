@@ -167,3 +167,10 @@ nano
 # Remove the package
 apt remove nano
 ```
+
+## Linux File System
+
+1. files or directories are organized in a tree
+2. dev - short for device
+3. etc - short for editable text configuration
+4. root - the home directory for the root user
