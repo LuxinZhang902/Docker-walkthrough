@@ -113,3 +113,57 @@ docker run codewithmosh/hello-docker
 ```
 
 ## Linux Distributions
+
+1. Open Source software
+2. Distros: Ubuntu, Debian, Alpine, Fedora, CentOS
+
+## Running Linux
+
+```python
+# Docker starts a container
+docker run ubuntu
+
+# See running containers
+docker ps
+docker ps -a # for all
+
+docker run -it ubuntu # start the container in the interactive mode
+# /#root login as a normal user
+echo hello
+whoami
+
+echo $0 # see the location of the program
+
+# Linux is a case-sensitive system
+history # See all the commands
+!2 #exactly 2 commands
+```
+
+## Managing Packages
+
+1. package managers
+
+   - npm
+   - yarn
+   - pip
+
+2. apt for Ubuntu
+   - apt-get
+3. nano: basic text for Linux
+
+```python
+# See all packages in this database
+apt list
+
+# update the package database
+apt update # ALWAYS RUN THIS before installing package
+
+# install nano
+apt install nano
+
+# Text editor
+nano
+
+# Remove the package
+apt remove nano
+```
