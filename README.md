@@ -197,3 +197,21 @@ cd ~ # get to the home directory - for all users
 ```
 
 ## Manipulating files and directories
+
+```python
+mkdir test # create a directory called test - blue represent a directory
+
+mv test docker # move test directory to docker
+
+touch hello.txt # create a new empty file
+
+touch file1.txt file2.txt file3.txt # create multiple files
+
+mv hello.txt hello-docker.txt # move to a different file (rename the file)
+mv hello.txt /etc # move it to another directory
+
+rm file1.txt file2.txt # remover multiple files
+rm file* # remove all files that starts from file
+
+rm -r docker/ # remove docker - '-r' for recursive
+```
